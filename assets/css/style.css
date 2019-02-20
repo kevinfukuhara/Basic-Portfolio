@@ -1,0 +1,99 @@
+/* GLOBAL TAG - CSS ELEMENTS */
+header {
+	display:inline-block;
+	width:100%;
+	background-color: white;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+	/*
+	background-color: black;
+	*/
+	background-image: url("../images/bananas.png");
+	background-repeat: repeat;
+}
+
+footer {
+	display:inline-block;
+	width:100%;
+	text-align: center;
+}
+
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/**********************************/
+/***** CLASS - CSS ELEMENTS *******/
+/**********************************/
+.titleH1 {
+	display:inline;
+	float:left;
+	position: relative;
+	align-items: center;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 29px;
+	margin:0;
+	padding: 18px 20px;
+}
+
+.titleNav {
+	display:inline;
+	float:left;
+	position: relative;
+	align-items: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	float:right;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+.marginMe {
+	width:960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+.bodyPadding {
+	padding: 0px 20px;
+}
+
+
+
+.lineShort {
+	width: 96%;
+}
+
+.bodyTitle {
+
+}
+
+
+/**********************************/
+/***** ID - CSS ELEMENTS *******/
+/**********************************/

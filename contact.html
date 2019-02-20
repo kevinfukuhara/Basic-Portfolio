@@ -7,6 +7,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kevin Fukuhara - Contact</title>
 </head>
+	<header>
+        <!-- Top Section containgin Logo + Navigation Bar.-->
+        <div>
+            <!-- This will provide the margins beteen the side bars-->
+            <div>    
+                <!-- Logo/Name box: Name or logo goes here.-->
+                <div>
+                    <h1>Kevin Fukuhara</h1>
+                </div>
+                
+                <!-- Navigation bar goes here: includes About (homepage), Portfolio, and Contact sections -->
+                <nav>
+                    <a href="index.html">About</a> | 
+                    <a href="portfolio.html">Portfolio</a> | 
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div>
+    	<h1>Contact</h1>
+        <hr> <!-- Line separates About Me from Content-->
+
+	<form id="myform" action"processing.php" method="post" class="formclass">
+		<p>	
+			<!-- Name Box/Field for User -->
+			<label for="name1">Name</label>
+			<br>
+			<input type="text" name="name1" id="name1" class="classic" />
+		</p>
+		<p>	
+			<!-- Email Box/Field for User -->
+			<label for="email">Email</label>
+			<br>
+			<input type="text" name="email" id="email" class="classic" />
+		</p>
+		<p>
+			<label for="message-box">Message</label> 
+			<!--<input type "text" name="message-box" id="message-box" class="classic" />-->
+			<br>
+			<textarea row="6" cols="50" id="message-box">
+			</textarea>
+		</p>
+		
+		<button type="submit">Submit</button>
+	</form>        
+
+    </div>
+
+    <!-- Footer will contain the bottom section. -->
+    <!--## This will not disappear when scrolling through webpage.## -->
+    <footer>
+        Copyright&copy; 2019
+    </footer>
+
 
 <body>
     
