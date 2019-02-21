@@ -5,56 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <title>Kevin Fukuhara - Contact</title>
 </head>
-	<header>
-        <!-- Top Section containgin Logo + Navigation Bar.-->
-        <div>
-            <!-- This will provide the margins beteen the side bars-->
-            <div>    
-                <!-- Logo/Name box: Name or logo goes here.-->
-                <div>
-                    <h1>Kevin Fukuhara</h1>
-                </div>
-                
-                <!-- Navigation bar goes here: includes About (homepage), Portfolio, and Contact sections -->
+
+<body>
+    <header>
+            <!-- Top Section containgin Logo + Navigation Bar.-->
+            <div class="marginMe">
+                <!-- This will provide the margins beteen the side bars-->
+                    <!-- Logo/Name box: Name or logo goes here.-->
+                    <!-- Navigation bar goes here: includes About (homepage), Portfolio, and Contact sections -->
                 <nav>
-                    <a href="index.html">About</a> | 
-                    <a href="portfolio.html">Portfolio</a> | 
-                    <a href="#">Contact</a>
+                    <h1 class="titleH1">Kevin Fukuhara</h1>
+                    <section class ="titleNav topnav">    
+                        <a href="index.html">About</a> | 
+                        <a href="portfolio.html">Portfolio</a> | 
+                        <a href="#">Contact</a>
+                    </section>
                 </nav>
             </div>
-        </div>
-
+        <br>
     </header>
 
-    <div>
-    	<h1>Contact</h1>
-        <hr> <!-- Line separates About Me from Content-->
+    <div class="marginMeBody">
+    	<h1 class="bodyTitle">Contact</h1>
+        <hr class="lineShort"> <!-- Line separates About Me from Content-->
 
-	<form id="myform" action"processing.php" method="post" class="formclass">
-		<p>	
-			<!-- Name Box/Field for User -->
-			<label for="name1">Name</label>
-			<br>
-			<input type="text" name="name1" id="name1" class="classic" />
-		</p>
-		<p>	
-			<!-- Email Box/Field for User -->
-			<label for="email">Email</label>
-			<br>
-			<input type="text" name="email" id="email" class="classic" />
-		</p>
-		<p>
-			<label for="message-box">Message</label> 
-			<!--<input type "text" name="message-box" id="message-box" class="classic" />-->
-			<br>
-			<textarea row="6" cols="50" id="message-box">
-			</textarea>
-		</p>
-		
-		<button type="submit">Submit</button>
-	</form>        
+        <form id="myform" action"processing.php" method="post" class="formclass singleItemPad">
+            <p>	
+                <!-- Name Box/Field for User -->
+                <label for="name1" class="contactFieldPad">Name</label>
+                <br>
+                <input type="text" name="name1" id="name1" class="stretchBar" />
+            </p>
+            <p>	
+                <!-- Email Box/Field for User -->
+                <label for="email" class="contactFieldPad">Email</label>
+                <br>
+                <input type="text" name="email" id="email" class="stretchBar" />
+            </p>
+            <p>
+                <label for="message-box" class="contactFieldPad">Message</label> 
+                <!--<input type "text" name="message-box" id="message-box" class="classic" />-->
+                <br>
+                <textarea row="20" cols="50" id="message-box" class="stretchBarBodyEmail">
+                </textarea>
+            </p>
+            
+            <button type="submit" id="buttonDesign">Submit</button>
+        </form>        
 
     </div>
 
