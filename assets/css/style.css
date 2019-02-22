@@ -151,6 +151,57 @@ div {
 	color: #777777;
 }
 
+.portfoBoxSet {
+	position: relative;
+	width: 920px;
+	height: 800px;
+
+	/**** ^^^^ 
+	NEED to find a way to make this Y-dimension automatic 
+	****/
+}
+
+.portfoIcon {
+	position: absolute;
+	width: calc(90%/3);
+	height: 200px;
+}
+
+.portCol1 {
+	left: 20px;
+}
+
+.portCol2 {
+	left: calc(340px);
+}
+
+.portRow1 {
+	top: 20px;
+}
+
+.portRow2 {
+	top: 260px;
+}
+
+.portRow3 {
+	top: 500px;
+}
+
+.portfoSubtitle {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	/*how to center text both horizontally and vertically in a div element*/
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       /* the same as your div height */
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+}
+
 /**********************************/
 /***** ID - CSS ELEMENTS *******/
 /**********************************/
@@ -163,7 +214,7 @@ div {
 }
 
 #bottomParagraph {
-	padding: 0px 20px 20px 20px;
+	padding: 0px 20px 10px 20px;
 }
 
 #tablePadding {
@@ -175,4 +226,24 @@ div {
 	background-color: #4aaaa5;
 	padding: 7px 20px;
 	border: 0px;
+}
+
+#hangmanProj {
+	background-image: url("../images/hangmanProj.jpg");
+}
+
+#rpgGameProj {
+	background-image: url("../images/rpgGameProj.jpg");
+}
+
+#triviaGameProj {
+	background-image: url("../images/triviaGameProj.jpg");
+}
+
+#rutgersInfoWidgProj {
+	background-image: url("../images/rutgersInfoWidgProj.jpg");
+}
+
+#rockPaperScProj {
+	background-image: url("../images/rockPaperScProj.jpg");
 }
